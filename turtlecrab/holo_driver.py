@@ -48,9 +48,9 @@ class HoloDriver(Node):
         self.pub_odom_obj.twist.twist.linear.x = odom_val[5]
         self.pub_odom.publish(self.pub_odom_obj)
 
-        self.tf_odom_obj.header.frame_id = "map"
+        self.tf_odom_obj.header.frame_id = "odom"
         self.tf_odom_obj.header.stamp = Time(sec=stamp[0], nanosec=stamp[1])
-        self.tf_odom_obj.child_frame_id = "odom"
+        self.tf_odom_obj.child_frame_id = "base_footprint"
         self.tf_odom_obj.transform.translation.x = odom_val[0]
         self.tf_odom_obj.transform.translation.y = odom_val[1]
         self.tf_odom_obj.transform.rotation.x = quat[1]
