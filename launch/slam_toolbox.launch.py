@@ -10,7 +10,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     # Get file path 
-    turtlecrab_param_file = os.path.join(get_package_share_directory('turtlecrab'), 'config', 'slam_async.yaml')
+    turtlecrab_param_file = os.path.join(get_package_share_directory('turtlecrab'), 'config', 'slam', 'slam_async.yaml')
     turtlecrab_map_root = os.path.join(get_package_share_directory('turtlecrab'), 'maps')
     nav2_launch_dir = os.path.join(get_package_share_directory('nav2_bringup'), 'launch')
 
