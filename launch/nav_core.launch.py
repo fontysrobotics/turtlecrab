@@ -7,7 +7,8 @@ from launch_ros.actions import Node
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 
-
+#for launching the navigation stack do:
+#       ros2 launch turtlecrab nav_core.launch.py map:='<map_location.yaml>'
 def generate_launch_description():
     # Get the launch and config directory
     turtlecrab_launch_dir = os.path.join(get_package_share_directory('turtlecrab'), 'launch')
