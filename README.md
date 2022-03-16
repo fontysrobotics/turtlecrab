@@ -15,31 +15,7 @@ below is an example of how it should look (**Hint:** for getting the path, go to
 `ros2 launch turtlecrab nav_core.launch.py map:='/home/noxr/dev_ws/src/nav2_action_py_example/map/example_maze_03.yaml'`
 
 ## Using slam_toolbox for mapping big spaces
-Yeah, it is anoying to map big spaces while driving the robot, so, using slam_toolbox iHi, afgelopen maandag hebben we bij TL overleg besproken dat ik eerst aan Barbara zou vragen of een bijeenkomst met nieuwe studenten in juni zou mogen.
-
-Dat mag inderdaad bij nieuwe regels die per 1 juni ingaan.
-
- 
-
-Annelies zal nu samen met jullie afstemmen wat er dan allemaal moet gebeuren. Dank voor jullie medewerking.
-
- 
-
-Groet,
-
-EllaHi, afgelopen maandag hebben we bij TL overleg besproken dat ik eerst aan Barbara zou vragen of een bijeenkomst met nieuwe studenten in juni zou mogen.
-
-Dat mag inderdaad bij nieuwe regels die per 1 juni ingaan.
-
- 
-
-Annelies zal nu samen met jullie afstemmen wat er dan allemaal moet gebeuren. Dank voor jullie medewerking.
-
- 
-
-Groet,
-
-Ellas really convenient and cool.
+Yeah, it is anoying to map big spaces while driving the robot, so, using slam_toolbox 
 
 For launching the slam_toolbox to do localization and mapping, then start the slam_toolbox:
 
